@@ -76,4 +76,3 @@ par(mfrow=c(1,2))
 plot(unique(act2$interval), daymean, type="l", main="Weekdays", xlab="5-minute interval", ylab="Average number of steps", ylim=c(0,230))
 plot(unique(act2$interval), endmean, type="l", main="Weekends", xlab="5-minute interval", ylab="Average number of steps", ylim=c(0,230))
 ```
-
